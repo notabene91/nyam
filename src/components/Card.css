@@ -139,8 +139,6 @@
 }
 
 .card__weight-number {
-  margin: 0;
-  font-weight: bold;
   font-size: 36px;
   line-height: 30px;
 }

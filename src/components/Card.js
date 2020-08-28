@@ -85,7 +85,7 @@ class Card extends React.Component {
               <p className="card__text"><span className="card__text card__text_bold">{mouse}</span>{textMouse}</p>
               <img className="card__image" src={logo} alt="Котик." />
               <div className={ovalClassName}>
-                <p className="card__weight-number">{weight}</p>
+                <p className="card__weight card__weight-number">{weight}</p>
                 <p className="card__weight">кг</p>
               </div>
             </div>

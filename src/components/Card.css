@@ -41,6 +41,10 @@
   height: 100%;
 }
 
+.card_hover {
+  background-color: #2ea8e6;
+}
+
 .card_active {
   background-color: #D91667;
 }
@@ -112,6 +116,10 @@
 
 .card__oval_disabled {
   background-color: #b3b3b3;
+}
+
+.card__oval_hover {
+  background-color: #2ea8e6
 }
 
 .card__oval_active {

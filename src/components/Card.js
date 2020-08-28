@@ -8,6 +8,7 @@ class Card extends React.Component {
     super();
     this.state = {
       isActive: false,
+      isMouseOver: false,
       isMouseLeave: false,
       cardClass: "card_active",
       ovalClass: "card__oval_active",
@@ -15,6 +16,7 @@ class Card extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
     this.mouseLeave = this.mouseLeave.bind(this);
+    this.mouseOver = this.mouseOver.bind(this);
   }
 
   handleClick() {
@@ -26,15 +28,21 @@ class Card extends React.Component {
     else {
       this.setState({ isActive: !isActive });
       this.setState({ overTitle: "Сказочное заморское лакомство" });
+      this.setState({ isMouseOver: true });
       this.setState({ isMouseLeave: false })
       this.setState({ cardClass: "card_active" })
       this.setState({ ovalClass: "card__oval_active" })
     }
   }
 
+  mouseOver() {
+    this.setState({ isMouseOver: true });
+  }
+
   mouseLeave() {
     const { isActive } = this.state;
-    this.setState({ isMouseLeave: true })
+    this.setState({ isMouseLeave: true });
+    this.setState({ isMouseOver: false });
     if (isActive) {
       this.setState({ overTitle: "Котэ не одобряет?" })
       this.setState({ cardClass: "card_active-hover" })
@@ -48,9 +56,9 @@ class Card extends React.Component {
   render() {
     const { title, subtitle, portions, textPortions, mouse, textMouse, weight, product, disabled } = this.props;
     const logo = cat;
-    const { isActive, isMouseLeave, cardClass, ovalClass } = this.state;
-    const cardClassName = `card ${isActive ? cardClass : '' || disabled ? "card_disabled" : ''} `;
-    const ovalClassName = `card__oval ${isActive ? ovalClass : '' || disabled ? "card__oval_disabled" : ''}`;
+    const { isActive, isMouseLeave, cardClass, ovalClass, isMouseOver } = this.state;
+    const cardClassName = `card ${isActive ? cardClass : '' || isMouseOver ? "card_hover" : '' || disabled ? "card_disabled" : ''} `;
+    const ovalClassName = `card__oval ${isActive ? ovalClass : '' || isMouseOver ? "card__oval_hover" : '' || disabled ? "card__oval_disabled" : ''}`;
     const overTitleName = `card__over-title ${isActive && isMouseLeave ? 'card__over-title_active' : ''}`;
     const descriptionName = `description ${disabled ? "description_disabled" : ''}`
     const description = `${disabled ? `Печалька, ${subtitle} закончился.` : `${isActive ? product : "Чего сидишь? Порадуй котэ, "}`}`;
@@ -62,7 +70,8 @@ class Card extends React.Component {
       <div className="element">
         <div className={cardClassName}
           onClick={this.handleClick}
-          onMouseLeave={this.mouseLeave}>
+          onMouseLeave={this.mouseLeave}
+          onMouseEnter={this.mouseOver}>
           <div className={disabledWrapper}>
             <div className="card__background">
               <p className={overTitleName}>{this.state.overTitle}</p>

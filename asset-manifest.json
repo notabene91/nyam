@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nyam/static/css/main.42ac705b.chunk.css",
-    "main.js": "/nyam/static/js/main.e9a37d99.chunk.js",
-    "main.js.map": "/nyam/static/js/main.e9a37d99.chunk.js.map",
+    "main.js": "/nyam/static/js/main.d955f0d8.chunk.js",
+    "main.js.map": "/nyam/static/js/main.d955f0d8.chunk.js.map",
     "runtime-main.js": "/nyam/static/js/runtime-main.46720978.js",
     "runtime-main.js.map": "/nyam/static/js/runtime-main.46720978.js.map",
     "static/js/2.3a50393a.chunk.js": "/nyam/static/js/2.3a50393a.chunk.js",
     "static/js/2.3a50393a.chunk.js.map": "/nyam/static/js/2.3a50393a.chunk.js.map",
     "index.html": "/nyam/index.html",
-    "precache-manifest.509ffaaadf4bb07127bb959d96a51d8c.js": "/nyam/precache-manifest.509ffaaadf4bb07127bb959d96a51d8c.js",
+    "precache-manifest.712202fa045c1a76299382ced7b33a12.js": "/nyam/precache-manifest.712202fa045c1a76299382ced7b33a12.js",
     "service-worker.js": "/nyam/service-worker.js",
     "static/css/main.42ac705b.chunk.css.map": "/nyam/static/css/main.42ac705b.chunk.css.map",
     "static/js/2.3a50393a.chunk.js.LICENSE.txt": "/nyam/static/js/2.3a50393a.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.46720978.js",
     "static/js/2.3a50393a.chunk.js",
     "static/css/main.42ac705b.chunk.css",
-    "static/js/main.e9a37d99.chunk.js"
+    "static/js/main.d955f0d8.chunk.js"
   ]
 }

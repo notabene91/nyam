@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4caeb1edad810fad53afaeaae63cb036",
+    "revision": "ac24fb8ef3dca803a1a0235d33e62377",
     "url": "/nyam/index.html"
   },
   {
-    "revision": "0f35eb43ae15b2bf5cbe",
+    "revision": "3484b8c9fa429e1bf0ba",
     "url": "/nyam/static/css/main.42ac705b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nyam/static/js/2.3a50393a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f35eb43ae15b2bf5cbe",
-    "url": "/nyam/static/js/main.e9a37d99.chunk.js"
+    "revision": "3484b8c9fa429e1bf0ba",
+    "url": "/nyam/static/js/main.d955f0d8.chunk.js"
   },
   {
     "revision": "d09eb64453433e6ed478",

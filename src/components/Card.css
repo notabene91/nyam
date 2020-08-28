@@ -10,6 +10,7 @@
   border-radius: 12px;
   cursor: pointer;
   clip-path: polygon(13% 0, 100% 0, 100% 63%, 100% 100%, 0 100%, 0% 60%, 0 8%);
+  -moz-clip-path: polygon(13% 0, 100% 0, 100% 63%, 100% 100%, 0 100%, 0% 60%, 0 8%);
 }
 
 .card__background {
@@ -23,7 +24,7 @@
   padding: 20px 16px 16px 42px;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   clip-path: polygon(13% 0, 100% 0, 100% 63%, 100% 100%, 0 100%, 0% 60%, 0 8%);
-  clip-path: padding-box;
+  -moz-clip-path: polygon(13% 0, 100% 0, 100% 63%, 100% 100%, 0 100%, 0% 60%, 0 8%);
   border-radius: 12px;
 }
 

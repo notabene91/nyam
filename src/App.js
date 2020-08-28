@@ -5,6 +5,8 @@ import Card from './components/Card'
 
 function App() {
 
+  // Как мог попытался эмулировать какую то дату, приходящую с сервера.
+  // Для отключения карточки служит ключ disabled
   const data = [
     { title: 'Нямушка', subtitle: 'с фуа-гра', portions: '10  ', textPortions: 'порций', mouse: '1 ', textMouse: 'мышь в подарок', weight: '0.5', product: 'Печень утки разварная с артишоками.', disabled: false },
     { title: 'Нямушка', subtitle: 'с рыбой', portions: '40  ', textPortions: 'порций', mouse: '2 ', textMouse: 'мыши в подарок', weight: '2', product: 'Головы щучьи с чесноком да свежайшая сёмгушка.', disabled: false },

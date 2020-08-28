@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nyam/static/css/main.af629633.chunk.css",
-    "main.js": "/nyam/static/js/main.f5de8422.chunk.js",
-    "main.js.map": "/nyam/static/js/main.f5de8422.chunk.js.map",
+    "main.css": "/nyam/static/css/main.54a9e74f.chunk.css",
+    "main.js": "/nyam/static/js/main.3d39f071.chunk.js",
+    "main.js.map": "/nyam/static/js/main.3d39f071.chunk.js.map",
     "runtime-main.js": "/nyam/static/js/runtime-main.46720978.js",
     "runtime-main.js.map": "/nyam/static/js/runtime-main.46720978.js.map",
     "static/js/2.3a50393a.chunk.js": "/nyam/static/js/2.3a50393a.chunk.js",
     "static/js/2.3a50393a.chunk.js.map": "/nyam/static/js/2.3a50393a.chunk.js.map",
     "index.html": "/nyam/index.html",
-    "precache-manifest.5bb48ed8642e99f429eec468a3bd0c21.js": "/nyam/precache-manifest.5bb48ed8642e99f429eec468a3bd0c21.js",
+    "precache-manifest.f72c7374823c0e8b9c0afe3fb576abba.js": "/nyam/precache-manifest.f72c7374823c0e8b9c0afe3fb576abba.js",
     "service-worker.js": "/nyam/service-worker.js",
-    "static/css/main.af629633.chunk.css.map": "/nyam/static/css/main.af629633.chunk.css.map",
+    "static/css/main.54a9e74f.chunk.css.map": "/nyam/static/css/main.54a9e74f.chunk.css.map",
     "static/js/2.3a50393a.chunk.js.LICENSE.txt": "/nyam/static/js/2.3a50393a.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/nyam/static/media/Exo2.0-Thin.44bde874.otf",
     "static/media/App.css": "/nyam/static/media/background.a18b1ce2.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.46720978.js",
     "static/js/2.3a50393a.chunk.js",
-    "static/css/main.af629633.chunk.css",
-    "static/js/main.f5de8422.chunk.js"
+    "static/css/main.54a9e74f.chunk.css",
+    "static/js/main.3d39f071.chunk.js"
   ]
 }

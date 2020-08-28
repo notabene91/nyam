@@ -1,0 +1,164 @@
+.element {
+  margin-bottom: 36px;
+}
+
+.card {
+  position: relative;
+  background-color: #1698D9;
+  width: 320px;
+  min-height: 480px;
+  border-radius: 12px;
+  cursor: pointer;
+  clip-path: polygon(13% 0, 100% 0, 100% 63%, 100% 100%, 0 100%, 0% 60%, 0 8%);
+}
+
+.card__background {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px 16px 16px 42px;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  clip-path: polygon(13% 0, 100% 0, 100% 63%, 100% 100%, 0 100%, 0% 60%, 0 8%);
+  clip-path: padding-box;
+  border-radius: 12px;
+}
+
+.card_disabled {
+  background-color: #b3b3b3;
+}
+
+.card__disable-wrapper {
+  display: flex;
+  position: absolute;
+  cursor: initial;
+  background-color: #b3b3b3;
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+}
+
+.card_active {
+  background-color: #D91667;
+}
+
+.card_active-hover {
+  background-color: #E52E7A;
+}
+
+.card__over-title {
+  color: #666;
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card__over-title_active {
+  color: #E62E7A;
+}
+
+.card__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.card__subtitle {
+  margin: 0 0 10px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.card__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666;
+}
+
+.card__text_bold {
+  font-weight: bold;
+}
+
+.card__image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card__oval {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 25%;
+  height: 17%;
+  right: 14px;
+  bottom: 14px;
+  background-color: #1698D9;
+  border-radius: 50%;
+}
+
+.card__oval_disabled {
+  background-color: #b3b3b3;
+}
+
+.card__oval_active {
+  background-color: #D91667;
+}
+
+.card__oval_active-hover {
+  background-color: #E52E7A;
+}
+
+.card__weight {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 14px;
+}
+
+.card__weight-number {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.description {
+  text-align: center;
+  margin: 14px 0 0;
+  font-size: 13px;
+  line-height: 15px;
+  color: #fff;
+}
+
+.description_bold {
+  cursor: pointer;
+  color: #1698D9;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.description_bold:hover {
+  color: #2EA8E6;
+}
+
+.description_bold:active {
+  color: #D91667;
+}
+
+.description_disabled {
+  color: #FFFF66;
+}
